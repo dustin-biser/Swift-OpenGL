@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C6C48161C4B4D5A00AD2D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C48151C4B4D5A00AD2D4D /* AppDelegate.swift */; };
-		0C6C48181C4B4D5A00AD2D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C48171C4B4D5A00AD2D4D /* ViewController.swift */; };
-		0C6C481B1C4B4D5A00AD2D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C48191C4B4D5A00AD2D4D /* Main.storyboard */; };
-		0C6C481D1C4B4D5A00AD2D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C481C1C4B4D5A00AD2D4D /* Assets.xcassets */; };
-		0C6C48201C4B4D5A00AD2D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C481E1C4B4D5A00AD2D4D /* LaunchScreen.storyboard */; };
+		0C6C485D1C4B73DD00AD2D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C48521C4B73DD00AD2D4D /* AppDelegate.swift */; };
+		0C6C485E1C4B73DD00AD2D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C48531C4B73DD00AD2D4D /* ViewController.swift */; };
+		0C6C485F1C4B73DD00AD2D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C48571C4B73DD00AD2D4D /* Assets.xcassets */; };
+		0C6C48601C4B73DD00AD2D4D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C48581C4B73DD00AD2D4D /* Info.plist */; };
+		0C6C48611C4B73DD00AD2D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C48591C4B73DD00AD2D4D /* LaunchScreen.storyboard */; };
+		0C6C48621C4B73DD00AD2D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C485A1C4B73DD00AD2D4D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C6C48151C4B4D5A00AD2D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C6C48171C4B4D5A00AD2D4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C6C481A1C4B4D5A00AD2D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C6C481C1C4B4D5A00AD2D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C6C481F1C4B4D5A00AD2D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C6C48211C4B4D5A00AD2D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C6C48291C4B6D1F00AD2D4D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-OpenGL-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6C484F1C4B73DD00AD2D4D /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		0C6C48521C4B73DD00AD2D4D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C6C48531C4B73DD00AD2D4D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C6C48571C4B73DD00AD2D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C6C48581C4B73DD00AD2D4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6C48591C4B73DD00AD2D4D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C6C485A1C4B73DD00AD2D4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +40,7 @@
 		0C6C48091C4B4D5900AD2D4D = {
 			isa = PBXGroup;
 			children = (
-				0C6C48141C4B4D5A00AD2D4D /* Swift-OpenGL */,
+				0C6C484D1C4B73DD00AD2D4D /* Source */,
 				0C6C48131C4B4D5A00AD2D4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,31 +48,95 @@
 		0C6C48131C4B4D5A00AD2D4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL.app */,
+				0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C6C48141C4B4D5A00AD2D4D /* Swift-OpenGL */ = {
+		0C6C484D1C4B73DD00AD2D4D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0C6C48151C4B4D5A00AD2D4D /* AppDelegate.swift */,
-				0C6C48171C4B4D5A00AD2D4D /* ViewController.swift */,
-				0C6C48191C4B4D5A00AD2D4D /* Main.storyboard */,
-				0C6C481C1C4B4D5A00AD2D4D /* Assets.xcassets */,
-				0C6C481E1C4B4D5A00AD2D4D /* LaunchScreen.storyboard */,
-				0C6C48211C4B4D5A00AD2D4D /* Info.plist */,
-				0C6C48291C4B6D1F00AD2D4D /* BridgingHeader.h */,
+				0C6C48501C4B73DD00AD2D4D /* Classes */,
+				0C6C484F1C4B73DD00AD2D4D /* BridgingHeader.h */,
+				0C6C48551C4B73DD00AD2D4D /* Data */,
+				0C6C484E1C4B73DD00AD2D4D /* Assets */,
+				0C6C485C1C4B73DD00AD2D4D /* Shaders */,
 			);
-			path = "Swift-OpenGL";
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0C6C484E1C4B73DD00AD2D4D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0C6C48501C4B73DD00AD2D4D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C6C48511C4B73DD00AD2D4D /* iOS */,
+				0C6C48541C4B73DD00AD2D4D /* OSX */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C6C48511C4B73DD00AD2D4D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C6C48521C4B73DD00AD2D4D /* AppDelegate.swift */,
+				0C6C48531C4B73DD00AD2D4D /* ViewController.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0C6C48541C4B73DD00AD2D4D /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		0C6C48551C4B73DD00AD2D4D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C6C48561C4B73DD00AD2D4D /* iOS */,
+				0C6C485B1C4B73DD00AD2D4D /* OSX */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0C6C48561C4B73DD00AD2D4D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C6C48571C4B73DD00AD2D4D /* Assets.xcassets */,
+				0C6C48581C4B73DD00AD2D4D /* Info.plist */,
+				0C6C48591C4B73DD00AD2D4D /* LaunchScreen.storyboard */,
+				0C6C485A1C4B73DD00AD2D4D /* Main.storyboard */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0C6C485B1C4B73DD00AD2D4D /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		0C6C485C1C4B73DD00AD2D4D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C6C48111C4B4D5A00AD2D4D /* Swift-OpenGL */ = {
+		0C6C48111C4B4D5A00AD2D4D /* Swift-OpenGL-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C6C48241C4B4D5A00AD2D4D /* Build configuration list for PBXNativeTarget "Swift-OpenGL" */;
+			buildConfigurationList = 0C6C48241C4B4D5A00AD2D4D /* Build configuration list for PBXNativeTarget "Swift-OpenGL-iOS" */;
 			buildPhases = (
 				0C6C480E1C4B4D5A00AD2D4D /* Sources */,
 				0C6C480F1C4B4D5A00AD2D4D /* Frameworks */,
@@ -81,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = "Swift-OpenGL";
+			name = "Swift-OpenGL-iOS";
 			productName = "Swift-OpenGL";
-			productReference = 0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL.app */;
+			productReference = 0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C6C48111C4B4D5A00AD2D4D /* Swift-OpenGL */,
+				0C6C48111C4B4D5A00AD2D4D /* Swift-OpenGL-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -130,9 +195,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6C48201C4B4D5A00AD2D4D /* LaunchScreen.storyboard in Resources */,
-				0C6C481D1C4B4D5A00AD2D4D /* Assets.xcassets in Resources */,
-				0C6C481B1C4B4D5A00AD2D4D /* Main.storyboard in Resources */,
+				0C6C48611C4B73DD00AD2D4D /* LaunchScreen.storyboard in Resources */,
+				0C6C48601C4B73DD00AD2D4D /* Info.plist in Resources */,
+				0C6C485F1C4B73DD00AD2D4D /* Assets.xcassets in Resources */,
+				0C6C48621C4B73DD00AD2D4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,31 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6C48181C4B4D5A00AD2D4D /* ViewController.swift in Sources */,
-				0C6C48161C4B4D5A00AD2D4D /* AppDelegate.swift in Sources */,
+				0C6C485E1C4B73DD00AD2D4D /* ViewController.swift in Sources */,
+				0C6C485D1C4B73DD00AD2D4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0C6C48191C4B4D5A00AD2D4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C6C481A1C4B4D5A00AD2D4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C6C481E1C4B4D5A00AD2D4D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C6C481F1C4B4D5A00AD2D4D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C6C48221C4B4D5A00AD2D4D /* Debug */ = {
@@ -257,11 +304,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Swift-OpenGL/Info.plist";
+				INFOPLIST_FILE = Source/Data/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.Swift-OpenGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Swift-OpenGL/BridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = Source/BridgingHeader.h;
 			};
 			name = Debug;
 		};
@@ -269,11 +316,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Swift-OpenGL/Info.plist";
+				INFOPLIST_FILE = Source/Data/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.Swift-OpenGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Swift-OpenGL/BridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = Source/BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -289,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C6C48241C4B4D5A00AD2D4D /* Build configuration list for PBXNativeTarget "Swift-OpenGL" */ = {
+		0C6C48241C4B4D5A00AD2D4D /* Build configuration list for PBXNativeTarget "Swift-OpenGL-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C6C48251C4B4D5A00AD2D4D /* Debug */,

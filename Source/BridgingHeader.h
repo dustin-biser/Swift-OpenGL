@@ -9,7 +9,7 @@
 #ifndef BridgingHeader_h
 #define BridgingHeader_h
 
-#import <OpenGLES/ES2/gl.h>
-#import <OpenGLES/ES2/glext.h>
+//#import <OpenGLES/ES2/gl.h>
+//#import <OpenGLES/ES2/glext.h>
 
 #endif /* BridgingHeader_h */

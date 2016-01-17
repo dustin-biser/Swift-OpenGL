@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C6C48111C4B4D5A00AD2D4D"
-               BuildableName = "Swift-OpenGL.app"
-               BlueprintName = "Swift-OpenGL"
+               BuildableName = "Swift-OpenGL-iOS.app"
+               BlueprintName = "Swift-OpenGL-iOS"
                ReferencedContainer = "container:Swift-OpenGL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C6C48111C4B4D5A00AD2D4D"
-            BuildableName = "Swift-OpenGL.app"
-            BlueprintName = "Swift-OpenGL"
+            BuildableName = "Swift-OpenGL-iOS.app"
+            BlueprintName = "Swift-OpenGL-iOS"
             ReferencedContainer = "container:Swift-OpenGL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C6C48111C4B4D5A00AD2D4D"
-            BuildableName = "Swift-OpenGL.app"
-            BlueprintName = "Swift-OpenGL"
+            BuildableName = "Swift-OpenGL-iOS.app"
+            BlueprintName = "Swift-OpenGL-iOS"
             ReferencedContainer = "container:Swift-OpenGL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0C6C48111C4B4D5A00AD2D4D"
-            BuildableName = "Swift-OpenGL.app"
-            BlueprintName = "Swift-OpenGL"
+            BuildableName = "Swift-OpenGL-iOS.app"
+            BlueprintName = "Swift-OpenGL-iOS"
             ReferencedContainer = "container:Swift-OpenGL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
