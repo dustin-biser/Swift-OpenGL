@@ -22,6 +22,7 @@
 		0C6C481C1C4B4D5A00AD2D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C6C481F1C4B4D5A00AD2D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6C48211C4B4D5A00AD2D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6C48291C4B6D1F00AD2D4D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				0C6C481C1C4B4D5A00AD2D4D /* Assets.xcassets */,
 				0C6C481E1C4B4D5A00AD2D4D /* LaunchScreen.storyboard */,
 				0C6C48211C4B4D5A00AD2D4D /* Info.plist */,
+				0C6C48291C4B6D1F00AD2D4D /* BridgingHeader.h */,
 			);
 			path = "Swift-OpenGL";
 			sourceTree = "<group>";
@@ -97,6 +99,11 @@
 					0C6C48111C4B4D5A00AD2D4D = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 72886Z9JEN;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -254,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.Swift-OpenGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-OpenGL/BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -265,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "none.Swift-OpenGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-OpenGL/BridgingHeader.h";
 			};
 			name = Release;
 		};
