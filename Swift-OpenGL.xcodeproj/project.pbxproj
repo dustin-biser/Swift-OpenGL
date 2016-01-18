@@ -13,6 +13,11 @@
 		0C6C48601C4B73DD00AD2D4D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C48581C4B73DD00AD2D4D /* Info.plist */; };
 		0C6C48611C4B73DD00AD2D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C48591C4B73DD00AD2D4D /* LaunchScreen.storyboard */; };
 		0C6C48621C4B73DD00AD2D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C485A1C4B73DD00AD2D4D /* Main.storyboard */; };
+		0C6C487A1C4C862200AD2D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C48761C4C861C00AD2D4D /* AppDelegate.swift */; };
+		0C6C487B1C4C862600AD2D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C48771C4C861C00AD2D4D /* ViewController.swift */; };
+		0C6C48821C4C894200AD2D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C487E1C4C891300AD2D4D /* Assets.xcassets */; };
+		0C6C48831C4C894300AD2D4D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C487C1C4C891300AD2D4D /* Info.plist */; };
+		0C6C48841C4C894500AD2D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6C487D1C4C891300AD2D4D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +29,23 @@
 		0C6C48581C4B73DD00AD2D4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C6C48591C4B73DD00AD2D4D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C6C485A1C4B73DD00AD2D4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0C6C48671C4C855C00AD2D4D /* Swift-OpenGL-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-OpenGL-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6C48761C4C861C00AD2D4D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C6C48771C4C861C00AD2D4D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C6C487C1C4C891300AD2D4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6C487D1C4C891300AD2D4D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0C6C487E1C4C891300AD2D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C6C480F1C4B4D5A00AD2D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6C48641C4C855C00AD2D4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL-iOS.app */,
+				0C6C48671C4C855C00AD2D4D /* Swift-OpenGL-OSX.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +112,8 @@
 		0C6C48541C4B73DD00AD2D4D /* OSX */ = {
 			isa = PBXGroup;
 			children = (
+				0C6C48761C4C861C00AD2D4D /* AppDelegate.swift */,
+				0C6C48771C4C861C00AD2D4D /* ViewController.swift */,
 			);
 			path = OSX;
 			sourceTree = "<group>";
@@ -120,6 +141,9 @@
 		0C6C485B1C4B73DD00AD2D4D /* OSX */ = {
 			isa = PBXGroup;
 			children = (
+				0C6C487E1C4C891300AD2D4D /* Assets.xcassets */,
+				0C6C487C1C4C891300AD2D4D /* Info.plist */,
+				0C6C487D1C4C891300AD2D4D /* Main.storyboard */,
 			);
 			path = OSX;
 			sourceTree = "<group>";
@@ -151,6 +175,23 @@
 			productReference = 0C6C48121C4B4D5A00AD2D4D /* Swift-OpenGL-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0C6C48661C4C855C00AD2D4D /* Swift-OpenGL-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6C48731C4C855C00AD2D4D /* Build configuration list for PBXNativeTarget "Swift-OpenGL-OSX" */;
+			buildPhases = (
+				0C6C48631C4C855C00AD2D4D /* Sources */,
+				0C6C48641C4C855C00AD2D4D /* Frameworks */,
+				0C6C48651C4C855C00AD2D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-OpenGL-OSX";
+			productName = "Swift-OpenGL-OSX";
+			productReference = 0C6C48671C4C855C00AD2D4D /* Swift-OpenGL-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +211,9 @@
 							};
 						};
 					};
+					0C6C48661C4C855C00AD2D4D = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 0C6C480D1C4B4D5900AD2D4D /* Build configuration list for PBXProject "Swift-OpenGL" */;
@@ -186,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				0C6C48111C4B4D5A00AD2D4D /* Swift-OpenGL-iOS */,
+				0C6C48661C4C855C00AD2D4D /* Swift-OpenGL-OSX */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +247,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C6C48651C4C855C00AD2D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6C48821C4C894200AD2D4D /* Assets.xcassets in Resources */,
+				0C6C48831C4C894300AD2D4D /* Info.plist in Resources */,
+				0C6C48841C4C894500AD2D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -211,6 +266,15 @@
 			files = (
 				0C6C485E1C4B73DD00AD2D4D /* ViewController.swift in Sources */,
 				0C6C485D1C4B73DD00AD2D4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C6C48631C4C855C00AD2D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6C487A1C4C862200AD2D4D /* AppDelegate.swift in Sources */,
+				0C6C487B1C4C862600AD2D4D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +388,36 @@
 			};
 			name = Release;
 		};
+		0C6C48741C4C855C00AD2D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Source/Data/OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Swift-OpenGL-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C6C48751C4C855C00AD2D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Source/Data/OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "none.Swift-OpenGL-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,6 +435,14 @@
 			buildConfigurations = (
 				0C6C48251C4B4D5A00AD2D4D /* Debug */,
 				0C6C48261C4B4D5A00AD2D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C6C48731C4C855C00AD2D4D /* Build configuration list for PBXNativeTarget "Swift-OpenGL-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6C48741C4C855C00AD2D4D /* Debug */,
+				0C6C48751C4C855C00AD2D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
